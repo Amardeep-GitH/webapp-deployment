@@ -17,7 +17,7 @@ spec:
         - name: webapp
           image: amardeepdockerimg/webapp:v2
           ports:
-            - containerPort: 8080
+            - containerPort: 80
           volumeMounts:
             - name: app-storage
               mountPath: /usr/share/nginx/html
